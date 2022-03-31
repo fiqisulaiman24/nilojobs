@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nilojobs &mdash; Find Your Dream First Job</title>
+    <!-- Main -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Own -->
+    <link rel="stylesheet" href="css/nilojobs.css">
+    <!-- Icofont -->
+    <link rel="stylesheet" href="lib/icofont/icofont.min.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="lib/aos/aos.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section class="hero">
+      <img src="img/blob-alt.svg" class="nilojobs__blob">
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <header class="navbar is-spaced">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="index.html">
+                <div id="nilojobs__logo">
+                  Nilo<span>jobs</span>
+                </div>
+              </a>
+
+              <span class="navbar-burger" data-target="navbarMenuHeroC">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroC" class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item">
+                  Home
+                </a>
+
+                <a class="navbar-item">
+                  About us
+                </a>
+
+                <a class="navbar-item">
+                  Features
+                </a>
+
+                <a class="navbar-item">
+                  Service
+                </a>
+
+                <a class="navbar-item nilojobs__login">
+                  Login
+                </a>
+
+                <div class="navbar-item">
+                  <div class="buttons">
+                    <a class="button nilojobs__postjob">
+                      <span>Post a job</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-multiline">
+            <div class="column is-6">
+              <h1 class="title nilojobs__headline is-spaced">
+                Get <span>hired</span><br>
+                by the popular<br>
+                teams.
+              </h1>
+
+              <p class="subtitle nilojobs__tagline">
+                Find your dream job according to your interest simply
+                <br class="is-hidden-mobile"> click on search
+                and choose category according your skills.
+              </p>
+
+              <div class="field">
+                <p class="control has-icons-left nilojobs__search__wrapper">
+                  <input class="input nilojobs__input__search" type="text" placeholder="Job title or keyword">
+                  <span class="icon is-small is-left nilojobs__search__icon">
+                    <i class="icofont-search-1"></i>
+                  </span>
+                  <a class="button nilojobs__search__btn">
+                    <span>Search</span>
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <div class="column is-5 is-offset-1 is-hidden-mobile">
+              <img src="img/hero.jpg" class="nilojobs__hero__image">
+            </div>
+          </div>
+
+          <div class="columns has-text-centered nilojobs__partners">
+            <div class="column">
+              <i class="icofont-brand-nokia icofont-6x"></i>
+            </div>
+
+            <div class="column">
+              <i class="icofont-brand-netflix icofont-6x"></i>
+            </div>
+
+            <div class="column">
+              <i class="icofont-brand-etihad-airways icofont-6x"></i>
+            </div>
+
+            <div class="column">
+              <i class="icofont-brand-nescafe icofont-6x"></i>
+            </div>
+
+            <div class="column">
+              <i class="icofont-brand-toshiba icofont-6x"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section nilojobs__work__section">
+      <div class="container">
+        <small class="nilojobs__section__sub">Work</small>
+        <h2 class="title nilojobs__section__title">How it work</h2>
+
+        <div class="columns is-multiline">
+          <div class="column is-3">
+            <div class="nilojobs__work__wrapper">
+              <div class="nilojobs__work__icon">
+                <i class="icofont-ui-user icofont-2x"></i>
+              </div>
+            </div>
+            <div class="nilojobs__work__content">
+              <h3 class="nilojobs__work__title">
+                Account
+              </h3>
+              <p class="nilojobs__work__subtitle">
+                First, you need to create account in here
+              </p>
+            </div>
+          </div>
+
+          <div class="column is-3">
+            <div class="nilojobs__work__wrapper">
+              <div class="nilojobs__work__icon">
+                <i class="icofont-ui-copy icofont-2x"></i>
+              </div>
+            </div>
+            <div class="nilojobs__work__content">
+              <h3 class="nilojobs__work__title">
+                Resume
+              </h3>
+              <p class="nilojobs__work__subtitle">
+                For a job you have to upload your
+                best CV or Resume
+              </p>
+            </div>
+          </div>
+
+          <div class="column is-3">
+            <div class="nilojobs__work__wrapper">
+              <div class="nilojobs__work__icon">
+                <i class="icofont-search icofont-2x"></i>
+              </div>
+            </div>
+            <div class="nilojobs__work__content">
+              <h3 class="nilojobs__work__title">
+                Find Job
+              </h3>
+              <p class="nilojobs__work__subtitle">
+                Find your best job by using
+                search or categories
+              </p>
+            </div>
+          </div>
+
+          <div class="column is-3">
+            <div class="nilojobs__work__wrapper">
+              <div class="nilojobs__work__icon">
+                <i class="icofont-hand-drag1 icofont-2x"></i>
+              </div>
+            </div>
+            <div class="nilojobs__work__content">
+              <h3 class="nilojobs__work__title">
+                Apply Job
+              </h3>
+              <p class="nilojobs__work__subtitle">
+                Finally, you apply your job and
+                enjoy your wait
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section nilojobs__categories__section">
+      <div class="container">
+        <div class="has-text-centered">
+          <small class="nilojobs__section__sub">Category</small>
+          <h2 class="title nilojobs__section__title">Explore by category</h2>
+        </div>
+
+        <div class="columns is-multiline nilojobs__categories__list">
+          <div class="column is-3">
+            <div class="box nilojobs__categories">
+              <div class="media">
+                <div class="media-left">
+                  <div class="nilojobs__categories__wrapper">
+                    <div class="nilojobs__categories__icon">
+                      <i class="icofont-code icofont-2x"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="nilojobs__categories__content">
+                <h3 class="nilojobs__categories__name">Programmer</h3>
+                <p class="nilojobs__categories__count">2000 Vacancy</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-3">
+            <div class="box nilojobs__categories">
+              <div class="media">
+                <div class="media-left">
+                  <div class="nilojobs__categories__wrapper">
+                    <div class="nilojobs__categories__icon">
+                      <i class="icofont-paint icofont-2x"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="nilojobs__categories__content">
+                <h3 class="nilojobs__categories__name">UI/UX Designer</h3>
+                <p class="nilojobs__categories__count">1500 Vacancy</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-3">
+            <div class="box nilojobs__categories">
+              <div class="media">
+                <div class="media-left">
+                  <div class="nilojobs__categories__wrapper">
+                    <div class="nilojobs__categories__icon">
+                      <i class="icofont-camera-alt icofont-2x"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="nilojobs__categories__content">
+                <h3 class="nilojobs__categories__name">Photographer</h3>
+                <p class="nilojobs__categories__count">1000 Vacancy</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-3">
+            <div class="box nilojobs__categories">
+              <div class="media">
+                <div class="media-left">
+                  <div class="nilojobs__categories__wrapper">
+                    <div class="nilojobs__categories__icon">
+                      <i class="icofont-ui-video-play icofont-2x"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="nilojobs__categories__content">
+                <h3 class="nilojobs__categories__name">Video Editor</h3>
+                <p class="nilojobs__categories__count">500 Vacancy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section nilojobs__featured__section">
+      <div class="container">
+        <div class="has-text-centered">
+          <small class="nilojobs__section__sub">2000+ job post</small>
+          <h2 class="title nilojobs__section__title">Featured job you love</h2>
+        </div>
+
+        <div class="columns is-multiline nilojobs__featured__list">
+          <div class="column is-4">
+            <div class="card nilojobs__featured__card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  <img src="https://www.freepnglogos.com/uploads/linkedin-png-logo-23.png" width="52">
+                </p>
+                <p class="card-header-icon">
+                  2 Days Ago
+                </p>
+              </header>
+              <div class="card">
+                <div class="nilojobs__featured__content">
+                  <p class="nilojobs__featured__desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                  </p>
+                  <a href="#" class="button nilojobs__featured__btn is-rounded">
+                    See More
+                  </a>
+
+                  <div class="nilojobs__featured__priceloc">
+                    <span>50 - 100$</span>
+                    <span>
+                      <i class="icofont-google-map"></i>
+                      New York
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-4">
+            <div class="card nilojobs__featured__card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  <img src="https://lh3.googleusercontent.com/proxy/mD3zBFaJKkCFXwOGQIznjK10vLaaODLy3yovgc2dJwlgNyluQXVBz9MVpLy0SMjKso0ADZy77wbDPDfc-1Jvxy_2kjmVAmUFW0_ZzyruepEw8Gfpc6cy" width="52">
+                </p>
+                <p class="card-header-icon">
+                  2 Days Ago
+                </p>
+              </header>
+              <div class="card">
+                <div class="nilojobs__featured__content">
+                  <p class="nilojobs__featured__desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                  </p>
+                  <a href="#" class="button nilojobs__featured__btn is-rounded">
+                    See More
+                  </a>
+
+                  <div class="nilojobs__featured__priceloc">
+                    <span>100 - 200$</span>
+                    <span>
+                      <i class="icofont-google-map"></i>
+                      Jakarta
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-4">
+            <div class="card nilojobs__featured__card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  <img src="https://www.freepnglogos.com/uploads/linkedin-png-logo-23.png" width="52">
+                </p>
+                <p class="card-header-icon">
+                  2 Days Ago
+                </p>
+              </header>
+              <div class="card">
+                <div class="nilojobs__featured__content">
+                  <p class="nilojobs__featured__desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                  </p>
+                  <a href="#" class="button nilojobs__featured__btn is-rounded">
+                    See More
+                  </a>
+
+                  <div class="nilojobs__featured__priceloc is-rounded">
+                    <span>300 - 500$</span>
+                    <span>
+                      <i class="icofont-google-map"></i>
+                      Bangladesh
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="buttons is-centered">
+          <a href="#" class="button nilojobs__featured__allbtn">
+            <span>Show All</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section nilojobs__testimonial__section">
+      <div class="container">
+        <div class="has-text-centered">
+          <small class="nilojobs__section__sub">Client</small>
+          <h2 class="title nilojobs__section__title">Testimonial</h2>
+        </div>
+
+        <div class="columns is-multiline nilojobs__testimonial__list">
+          <div class="column is-4">
+            <div class="card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img class="is-rounded" src="img/6.jpg" alt="Client Image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <h4 class="title nilojobs__testimonial__name">Ade Suryaman</h4>
+                    <p class="subtitle nilojobs__testimonial__job">Software Engineer</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  <p class="subtitle nilojobs__testimonial__desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod
+                    tempor incididunt labore enim minim veniam quis nostrud exercitation ullamco laboris.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-4">
+            <div class="card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img class="is-rounded" src="img/hero.jpg" alt="Client Image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <h4 class="title nilojobs__testimonial__name">Gordon Freeman</h4>
+                    <p class="subtitle nilojobs__testimonial__job">Software Engineer</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  <p class="subtitle nilojobs__testimonial__desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod
+                    tempor incididunt labore enim minim veniam quis nostrud exercitation ullamco laboris.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-4">
+            <div class="card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img class="is-rounded" src="img/2.jpg" alt="Client Image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <h4 class="title nilojobs__testimonial__name">Dr. Kleiner</h4>
+                    <p class="subtitle nilojobs__testimonial__job">Software Engineer</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  <p class="subtitle nilojobs__testimonial__desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod
+                    tempor incididunt labore enim minim veniam quis nostrud exercitation ullamco laboris.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section nilojobs__subscribe__section">
+      <div class="container">
+        <div class="box nilojobs__subscribe">
+          <div class="columns">
+            <div class="column">
+              <h2 class="title nilojobs__subscribe__title has-text-centered-mobile">
+                Subscribe<br class="is-hidden-mobile">
+                Our Newsletter
+              </h2>
+            </div>
+
+            <div class="column">
+              <div class="field">
+                <p class="control has-icons-left nilojobs__search__wrapper">
+                  <input class="input nilojobs__input__search" type="email" placeholder="example20@gmail.com">
+                  <span class="icon is-small is-left nilojobs__search__icon">
+                    <i class="icofont-envelope-open"></i>
+                  </span>
+                  <a class="button nilojobs__search__btn">
+                    <span>Subscribe</span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section nilojobs__foot__section">
+      <div class="container">
+        <div class="columns is-multiline">
+          <div class="column is-3">
+            <h5 class="title nilojobs__logo__foot">
+              Nilo<span>jobs</span>
+            </h5>
+
+            <p class="nilojobs__foot__desc">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt labo enim minim.
+            </p>
+          </div>
+
+          <div class="column is-2 is-offset-1">
+            <h5 class="title nilojobs__foot__title">
+              Quick Links
+            </h5>
+
+            <ul class="nilojobs__foot__menu">
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Service</li>
+            </ul>
+          </div>
+
+          <div class="column is-2">
+            <h5 class="title nilojobs__foot__title">
+              Social Media
+            </h5>
+
+            <ul class="nilojobs__foot__menu">
+              <li>Instagram</li>
+              <li>Facebook</li>
+              <li>Behance</li>
+              <li>LinkedIn</li>
+            </ul>
+          </div>
+
+          <div class="column is-2">
+            <h5 class="title nilojobs__foot__title">
+              Job info
+            </h5>
+
+            <ul class="nilojobs__foot__menu">
+              <li>Blogs</li>
+              <li>Service</li>
+              <li>Payment</li>
+            </ul>
+          </div>
+
+          <div class="column is-2">
+            <h5 class="title nilojobs__foot__title">
+              Contact Us
+            </h5>
+
+            <ul class="nilojobs__foot__menu">
+              <li>Condet, Indonesia</li>
+              <li>nilojobs@bussines.com</li>
+              <li>+021 857 664</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <footer class="footer nilojobs__footer">
+      <div class="container">
+        <div class="nilojobs__footer__text">
+          <span class="nilojobs__footer__title has-text-centered-m">
+            All Right Reserved by Nilojobs
+          </span>
+
+          <ul class="nilojobs__footer__links">
+            <li>Privacy</li>
+            <li>Security</li>
+            <li>Terms</li>
+          </ul>
+        </div>
+      </div>
+    </footer> -->
+    <!-- Jquery -->
+    <script type="text/javascript" src="lib/jquery.min.js"></script>
+    <!-- AOS -->
+    <script type="text/javascript" src="lib/aos/aos.js"></script>
+    <!-- Main JS -->
+    <script type="text/javascript" src="lib/main.js"></script>
+  </body>
+</html>
